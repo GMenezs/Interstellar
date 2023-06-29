@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: rgb(228, 228, 228);
+    font-family: 'Noto Sans', sans-serif;
+}
+.title{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.apresentacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    background-color: white;
+    border-bottom: solid 1px;
+    flex-wrap: wrap;
+    
+    
+    
+}
+.lista{
+    font-size: 17px;
+    display: flex;
+    gap: 30px;
+}
+.sobre{
+    color: rgb(46, 46, 46);
+    text-decoration: none;
+}
+.blog{
+    color: rgb(46, 46, 46);
+    text-decoration: none;
+}
+.conta{
+    color: rgb(46, 46, 46);
+    text-decoration: none;
+}
+.bh{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    flex-wrap: wrap;
+    
+    font-size: 20px;
+}
+.banner{
+    width: 1890px;
+    height: 300px;
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    margin: 40px;
+}
+.banner-blackhole{
+    width: 1890px;
+    height: 300px;
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    margin: 40px;
+}
+.saiba-mais{
+    color: white;
+}
+.gif{
+    width: 400px;
+}
+
+.main{
+    margin: 40px;
+
+}
+.cards{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.terra{
+    width: 300px;
+    border-radius: 20px;
+}
+.lua{
+    width: 300px;
+    border-radius: 20px;
+}
+.aurora{
+    width: 286px;
+    border-radius: 20px;
+}
+.jupiter{
+    width: 300px;
+    border-radius: 20px;
+}
+.saturno{
+    width: 300px;
+    border-radius: 20px;
+}
+.marte{
+    width: 300px;
+    border-radius: 20px;
+}
+.container{
+    color: white;
+    font-size: 20px;
+
+}
+.galaxy{
+    display: flex;
+    align-items: center;
+    margin: 40px;
+    gap: 50px;
+    background-color: rgb(24, 24, 24);
+    border-radius: 20px;
+    
+}
+.andromeda{
+    border-radius: 10px;
+    margin: 10px;
+}
+.paragrafo{
+    margin: 40px;
+}
+.rodape{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    border-top: solid 1px;
+    height: 100px;
+    
+}
+.lista__{
+    display: flex;
+    gap: 30px;
+    margin-top:  10px;
+    font-size: 18px;
+
+}
+.end{
+    margin: 10px;
+}
+.instagram{
+    width: 30px;
+}
+.facebook{
+    width: 30px;
+}
+.github{
+    width: 30px;
+}
+.twitter{
+    width: 30px;
+}
+.social{
+    display: flex;
+    gap: 10px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    
+}
+.conteudo{
+    margin: 20px;
+}
+.paragrafo--2{
+    margin-left: 50px;
+
+}
+.card-banner{
+    width: 1000px;
+    height: 900px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    margin: 15px;
+}
+.conteudo-2{
+    display: flex;
+    justify-content: center;
+}
+.paragrafo-blackhole{
+    width: 800px;
+}
+.imagem-blackhole{
+    margin: 50px;
+    border-radius: 15px;
+    width: 600px;
+
+}
+.container-2{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.terra-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    width: 1000px;
+    height: 990px;
+    gap: 20px;
+    border-radius: 20px;
+}
+.lua-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    width: 950px;
+    height: 800px;
+    gap: 20px;
+    border-radius: 20px;
+}
+.terra-2{
+    border-radius: 15px;
+    margin: 40px;
+}
+.lua-2{
+    border-radius: 15px;
+    margin: 40px;
+}
+.gif-blackhole{
+    width: 400px;
+}
+.paragrafo-planetas{
+    margin-left: 100px;
+    width: 800px;
+}
+
+
+@media only screen and (max-width: 1021px){
+    .galaxy{
+        display: flex;
+        flex-direction: column;
+    }
+    .imagem-blackhole{
+        width: 500px;
+    }
+    
+    .banner-blackhole{
+        height: 400px;
+    }
+    .terra-2{
+        width: 500px;
+    }
+    .terra-card{
+        width: 780px;
+    }
+    .paragrafo-planetas{
+        width: 600px;
+    }
+    .lua-card{
+        width: 780px;
+    }
+
+}
+@media only screen and (max-width: 768px){
+    .social{
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+        
+    }
+    .lista-footer{
+        display: none;
+    }
+    .paragrafo-2{
+        margin-left: 10px;
+    }
+    
+   
+    .andromeda{
+        width: 300px;
+
+    }
+    .paragrafo-blackhole{
+        width: 380px;
+    }
+    .imagem-blackhole{
+        width: 250px;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .terra-2{
+        width: 200px;
+        margin: 5px;
+        
+    }
+    .terra-card{
+        height: 750px;
+        width: 380px;
+        
+    }
+    .paragrafo-planetas{
+        width: 280px;
+        margin-right: 80px;
+    }
+    .lua-card{
+        width: 400px;
+    }
+    .lua-2{
+        width: 250px;
+    }
+
+}
